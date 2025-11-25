@@ -18,9 +18,52 @@ Open-Notes is a minimal, private note-sharing application built for small, close
   - JWT-based authorization
   - Clean endpoint structure
 
+## Screenshots
+
+<div align="center">
+
+  <img src="./Screenshot (7).png" alt="Screenshot 7" width="800"/>
+
+  <table>
+    <tr>
+      <td><img src="./Screenshot (9).png" alt="Screenshot 9" width="400"/></td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td><img src="./Screenshot (10).png" alt="Screenshot 10" width="250"/></td>
+      <td><img src="./Screenshot (11).png" alt="Screenshot 11" width="250"/></td>
+      <td><img src="./Screenshot (12).png" alt="Screenshot 12" width="250"/></td>
+    </tr>
+  </table>
+
+</div>
+
 ## Project Structure
 
-
+```
+open-notes/
+├── backend/
+│   ├── server.js
+│   ├── script.js
+│   ├── .env
+│   └── package.json
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── App.jsx
+│   │   └── index.css
+│   ├── public/
+│   └── package.json
+├── Screenshot (7).png
+├── Screenshot (8).png
+├── Screenshot (9).png
+├── Screenshot (10).png
+├── Screenshot (11).png
+├── Screenshot (12).png
+└── README.md
+```
 
 ## API Endpoints
 
