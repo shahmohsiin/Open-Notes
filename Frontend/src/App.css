@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+button{
+    cursor: pointer;
+}
+
+
+.Submit-button{
+    
+}
+
+
+/* ===== BEAUTIFUL THEMED SCROLLBAR ===== */
+
+/* For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: rgba(240, 240, 255, 0.2);
+  border-radius: 50px;
+  margin-block: 4px;
+}
+
+/* Scroll thumb (the handle) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #c928be, #ae1a8c);
+  border-radius: 22px;
+  border: 2px solid rgba(237, 77, 77, 0.5);
+  transition: background 0.3s ease;
+ 
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #c928be, #ae1a8c);
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #a1269f rgba(168, 61, 239, 0.3);
+}

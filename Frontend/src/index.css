@@ -1,0 +1,46 @@
+@import "tailwindcss";
+/* Old paper background for modal */
+.old-paper {
+  background: #fdf6e3;
+  background-image: url("https://www.transparenttextures.com/patterns/aged-paper.png");
+  background-size: cover;
+  border: 1px solid rgba(139, 69, 19, 0.3);
+}
+
+/* Envelope body with paper texture */
+.envelope-body {
+  background: #fdf6e3;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.04) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 6px 6px;
+  border: 1px solid rgba(139, 69, 19, 0.3);
+  position: relative;
+}
+
+/* Triangular flap */
+.envelope-flap {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 144px solid transparent;
+  border-right: 144px solid transparent;
+  border-bottom: 60px solid #deb887;
+  z-index: 5;
+  transform-origin: top;
+  will-change: transform;
+}
+
+/* Hover lift */
+.envelope:hover {
+  transform: translateY(-4px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.envelope:hover .envelope-body {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
