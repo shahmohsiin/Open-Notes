@@ -20,22 +20,7 @@ Open-Notes is a minimal, private note-sharing application built for small, close
 
 ## Project Structure
 
-```
-open-notes/
-├── backend/
-│   ├── server.js
-│   ├── script.js
-│   ├── .env
-│   └── package.json
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── App.jsx
-│   │   └── index.css
-│   ├── public/
-│   └── package.json
-└── README.md
-```
+
 
 ## API Endpoints
 
